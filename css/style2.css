@@ -701,8 +701,8 @@ h1{
     font-size: 42px;
 }
 
-p, input[type="email"], .btn {
-/*     font-size: 15px; */
+    input[type="email"], .btn {
+    font-size: 15px;
 }
 
 .banner p {
