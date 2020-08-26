@@ -702,7 +702,7 @@ h1{
 }
 
 p, input[type="email"], .btn {
-    font-size: 15px;
+/*     font-size: 15px; */
 }
 
 .banner p {
@@ -768,7 +768,7 @@ h2 {
 }
 
 .footer-menu a, .copyright {
-    font-size: 15px;
+/*     font-size: 15px; */
 }
 }
 
