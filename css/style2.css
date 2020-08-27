@@ -69,16 +69,15 @@ a:hover {
     text-decoration: none;
 }
 
-.overlay a {
+/*.overlay a {
     display: inline-block;
     position: relative;
     text-align: center;
     color: #FF5252;
     text-decoration: none;
-    font-size: 20px;
     overflow: hidden;
     top: 5px;
-}
+}*/
 
 .overlay a:after {
     content: '';
@@ -230,7 +229,7 @@ a:hover {
     top: 50%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    font-size: 50px;
+    /*font-size: 50px;*/
     text-align: center;
     z-index: 100;
 }
@@ -309,7 +308,8 @@ h1,
 h2,
 h3,
 .btn,
-.tip a {
+.tip a,
+.overlay a {
     font-weight: 600;
 }
 
@@ -448,18 +448,20 @@ h3 {
   padding-bottom: 34px;
 }
 
-.tip a {
-    font-size: 20px;
+.tip a, .overlay a {
+      font-size: 20px;
     /*line-height: 48px;*/
     line-height: 2.4;
-    color: #fa7875;
     text-transform: uppercase;
+}
+.tip a{
+    color: #fa7875;
     /*margin-top: 50px;
     display: block;*/
 }
 
 .tip a:hover {
-    color: #c36571;
+    /*color: #c36571;*/
     color: #3c3768;
 }
 
@@ -749,7 +751,7 @@ h6 {
   padding-bottom: 12px;
 }
 
-.tip a {
+.tip a, .overlay a {
     font-size: 17px;
     }
 
@@ -865,22 +867,14 @@ h2 {
     height: 2px;
     }
 
-/*.button_container.active .top {
-    -webkit-transform: translateY(0px) translateX(0) rotate(45deg);
-    transform: translateY(10px) translateX(0) rotate(45deg);
-    background: #FFF;
-}
-
-.button_container.active .middle {
-    opacity: 0;
-    background: #FFF;
+.button_container.active .top {
+    transform: translateY(5px) translateX(0) rotate(45deg);
 }
 
 .button_container.active .bottom {
-    -webkit-transform: translateY(-10px) translateX(0) rotate(-45deg);
-    transform: translateY(-10px) translateX(0) rotate(-45deg);
-    background: #FFF;
-}*/
+    -webkit-transform: translateY(-5px) translateX(0) rotate(-45deg);
+    transform: translateY(-5px) translateX(0) rotate(-45deg);
+}
 
 .button_container span:nth-of-type(2) {
     top: 5px;
@@ -1018,7 +1012,7 @@ h3 {
     font-size: 18px;
 }
 
-.tip a {
+.tip a, .overlay a {
     font-size: 14px;
 }
 
