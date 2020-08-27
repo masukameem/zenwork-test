@@ -697,17 +697,19 @@ h2 {
     height: 38px;
   }
 h1{
-      margin-top: 28px;
+  margin-top: 60px;
+      /*margin-top: 28px;*/
     font-size: 42px;
 }
 
-    input[type="email"], .btn {
+/*p,*/ input[type="email"], .btn {
     font-size: 15px;
 }
 
 .banner p {
     /* margin-bottom: 40px; */
     margin-bottom: 35px;
+    width: 100%;
   }
 h6 {
     margin-bottom: 30px;
@@ -882,11 +884,13 @@ h2 {
 }
 
   .banner {
-        min-width: 0px;
+        min-width: 353px;
+    max-width: 448px;
   }
 
   h1 {
-    font-size: 28px;
+   font-size: 35px;
+   /*font-size: 28px;*/
   }
 
   p, input[type="email"], .btn {
@@ -919,7 +923,7 @@ h6 {
 }
 
 h3 {
-    font-size: 20px;
+    /*font-size: 20px;*/
     }
 
 .tip a {
@@ -927,7 +931,8 @@ h3 {
 }
 
 h2 {
-    font-size: 24px;
+    /*font-size: 24px;*/
+    font-size: 30px;
 }
 
 .subscribe .form-group {
@@ -953,4 +958,65 @@ h2 {
     line-height: 35px;
     /*font-size: 14px;*/
     }
+}
+
+@media (max-width: 375px) {
+.banner {
+    min-width: 170px;
+    max-width: 370px;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+p {
+  font-size: 13px;
+}
+input[type="email"], .btn {
+    font-size: 12px;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+.tips-section .col-11 {
+  max-width: 100%;
+    margin-left: 0px;
+    flex: 100%;
+}
+
+.tip {
+  width: 100%;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+.tip a {
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 22px;
+    }
+
+    .footer-text p {
+    font-size: 12px;
+  }
+
+  .footer-menu a, .copyright {
+    font-size: 13px;
+}
+
+.social-menu a {
+    margin: 11px 2px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+}
 }
