@@ -830,19 +830,26 @@ h2 {
 
 @media (max-width: 575px) {
   .logo img {
-    width: 100px;
+    /*width: 100px;*/
+    width: 120px;
 }
 
 .searchbar { 
-    height: 26px;
+    /*height: 26px;
     padding: 3px 5px 3px 1px;
-        margin: 15px 10px;
+        margin: 15px 10px;*/
+            height: 30px;
+    padding: 4px;
+    margin: 15px 10px;
 }
 
 .search_icon {
-    height: 18px;
+    /*height: 18px;
     width: 16px;
-    font-size: 14px;
+    font-size: 14px;*/
+    height: 20px;
+    width: 20px;
+    font-size: 15px;
 }
 
 .searchbar:hover > .search_input {
@@ -922,6 +929,20 @@ h6 {
     padding: 0px 15px;
 }
 
+.tip {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.tip-1 {
+  margin-bottom: 88px;
+}
+
+.tip-2 {
+    /* margin-bottom: 170px; */
+    margin-top: -16px;
+  }
+
 h3 {
     /*font-size: 20px;*/
     }
@@ -940,7 +961,8 @@ h2 {
 }
 
 .footer-text img {
-    width: 90px;
+    /*width: 90px;*/
+    width: 108px;
 }
 
   .footer-text p {
